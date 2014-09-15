@@ -1,2 +1,2 @@
-Odoo-HR-VietNam
+Odoo HR VietNam
 ===============
