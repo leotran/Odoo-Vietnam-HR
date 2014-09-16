@@ -1,666 +1,644 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
-#	* tvtma_hr_curriculum_vitae
+# 	* vi_hr_cv
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0-20130322-002354\n"
+"Project-Id-Version: OpenERP Server 7.saas~5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-04 09:26+0000\n"
-"PO-Revision-Date: 2013-08-04 09:26+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2014-09-16 07:37+0000\n"
+"PO-Revision-Date: 2014-09-16 14:46+0700\n"
+"Last-Translator: Leo Tran <leo.tran@ma.tvtmarine.com>\n"
+"Language-Team: Leo Tran <leotran.hpvn@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: Vietnam\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,date_revolution_admission:0
-msgid "Date of Revolution admission"
-msgstr "Ngày TG CM"
+#. module: vi_hr_cv
+#: selection:hr.employee,blood_group:0
+msgid "AB"
+msgstr "AB"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,skype:0
-msgid "Skype ID"
-msgstr "Skype ID"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,address_origin_id:0
-msgid "Origin Address"
-msgstr "Nguyên quán"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.hangthuongbinh:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_hangthuongbinh_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_hangthuongbinh
-msgid "Wounded Soldiers Rate"
-msgstr "Hạng thương binh"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,gtalk:0
-msgid "Gtalk ID"
-msgstr "Gtalk ID"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,msn:0
-msgid "MSN ID"
-msgstr "MSN ID"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Parent"
-msgstr "Bố mẹ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Grandparents"
-msgstr "Ông bà"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,training_subject:0
-msgid "Subject of Training"
-msgstr "Khoa"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,date_union_admission:0
-msgid "Date of Union Admission"
-msgstr "Ngày vào Đoàn"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,party_member_ok:0
-msgid "Is Party Member"
-msgstr "Là Đảng viên"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,regimen_ok:0
-msgid "Regimen"
-msgstr "Hưởng chế độ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,employee_type:0
-#: view:hr.thanhphan.banthan:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_thanhphan_banthan_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_thanhphan_banthan
-msgid "Employee Type"
-msgstr "Thành phần bản thân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.binhchung,notes:0
-#: field:hr.capbac.quannhan,notes:0
-#: field:hr.chucvu,notes:0
-#: field:hr.chuyennganh.daotao,notes:0
-#: field:hr.dantoc,notes:0
-#: field:hr.hangthuongbinh,notes:0
-#: field:hr.khoa.daotao,notes:0
-#: field:hr.nghenghiep,notes:0
-#: field:hr.noi.daotao,notes:0
-#: field:hr.quanhegiadinh,notes:0
-#: field:hr.thanhphan.banthan,notes:0
-#: field:hr.thanhphan.giadinh,notes:0
-#: field:hr.tongiao,notes:0
-#: field:hr.trinhdo.daotao,notes:0
-#: field:hr.xeploai.daotao,notes:0
-msgid "Notes"
-msgstr "Ghi chú"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.noi.daotao:0
-msgid "Search Training Places"
-msgstr "Tìm kiếm Nơi đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_xeploai_daotao
-msgid "Xep Loai Dao Tao"
-msgstr "Xếp loại đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_dantoc
-msgid "HR Dan Toc"
-msgstr "Dân tộc"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,place_union_admission:0
-msgid "Place of union admission"
-msgstr "Nơi kết nạp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.chucvu,type:0
-msgid "Quan nhan"
-msgstr "Quân nhân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,training_speciality:0
-msgid "Speciality of Training"
-msgstr "Chuyên ngành"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.employee:0
-msgid "Thong Tin Thuong Tat"
-msgstr "Thông tin thương tật"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.xeploai.daotao:0
-msgid "Search Training Ranking"
-msgstr "Tìm kiếm xếp loại đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.chucvu:0
-msgid "Search Duty"
-msgstr "Tìm kiếm chức vụ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,date_party_admission:0
-msgid "Date of Party admission"
-msgstr "Ngày vào Đảng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,occupation:0
-#: view:hr.nghenghiep:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_nghenghiep_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_nghenghiep
-msgid "Occupation"
-msgstr "Nghề nghiệp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,target:0
-msgid "Target"
-msgstr "Mục tiêu cá nhân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.binhchung:0
+#. module: vi_hr_cv
 #: field:hr.employee,army:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_binhchung_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_binhchung
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_binhchung_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_binhchung view:vi.hr.binhchung:0
 msgid "Army"
 msgstr "Binh chủng"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,declining_labor_rate:0
-msgid "Declining labor rate"
-msgstr "Tỷ lệ SG LĐ"
+#. module: vi_hr_cv
+#: field:hr.employee,blood_group:0
+msgid "Blood group"
+msgstr "Nhóm máu"
 
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_tongiao
-msgid "Ton Giao"
-msgstr "Tôn giáo"
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Children"
+msgstr "Con cái"
 
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
+#: field:vi.hr.noi.daotao,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: vi_hr_cv
 #: field:hr.employee,contact_emergency:0
 msgid "Contact Emergency"
 msgstr "Liên hệ khẩn cấp"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,family_type:0
-#: view:hr.thanhphan.giadinh:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_thanhphan_giadinh_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_thanhphan_giadinh
-msgid "Family Type"
-msgstr "Thành phần gia đình"
+#. module: vi_hr_cv
+#: model:ir.ui.menu,name:vi_hr_cv.menu_hr_curriculum_vitae
+msgid "Curriculum Vitae"
+msgstr "Sơ yếu lý lịch"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,date_military_admission:0
-msgid "Date of Military admission"
-msgstr "Ngày nhập ngũ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_nghenghiep
-msgid "Nghe Nghiep"
-msgstr "Nghề nghiệp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.chucvu,type:0
-#: field:hr.quanhegiadinh,type:0
-msgid "Type"
-msgstr "Nhóm quan hệ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.binhchung,name:0
-#: field:hr.capbac.quannhan,name:0
-#: field:hr.chucvu,name:0
-#: field:hr.chuyennganh.daotao,name:0
-#: field:hr.dantoc,name:0
-#: field:hr.hangthuongbinh,name:0
-#: field:hr.khoa.daotao,name:0
-#: field:hr.nghenghiep,name:0
-#: field:hr.noi.daotao,name:0
-#: field:hr.quanhegiadinh,name:0
-#: field:hr.thanhphan.banthan,name:0
-#: field:hr.thanhphan.giadinh,name:0
-#: field:hr.tongiao,name:0
-#: field:hr.trinhdo.daotao,name:0
-#: field:hr.xeploai.daotao,name:0
-msgid "Name"
-msgstr "Tên"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Sister/Brother"
-msgstr "Anh chị em"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,warning:0
-msgid "Warning"
-msgstr "Cần lưu ý"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.employee:0
-msgid "Other Information"
-msgstr "Thông tin khác"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.binhchung:0
-msgid "Search Army"
-msgstr "Tìm kiếm Binh chủng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_chucvu_type
-msgid "Loai Chuc Vu"
-msgstr "Loại chức cụ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,union_member_ok:0
-msgid "Is Union Member"
-msgstr "Là Đoàn viên"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_binhchung
-msgid "Binh Chung"
-msgstr "Binh chủng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,reason:0
-msgid "Reason"
-msgstr "Lý do"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.chucvu,type:0
+#. module: vi_hr_cv
+#: selection:vi.hr.chucvu,type:0
 msgid "Dang"
 msgstr "Đảng"
 
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
 #: field:hr.employee,date_allocate_cmnd:0
 #: field:hr.employee,date_allocate_passport:0
 msgid "Date of Allocate"
 msgstr "Ngày cấp"
 
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.capbac.quannhan:0
-msgid "Search Military Level"
-msgstr "Tìm kiếm cấp bậc"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.capbac.quannhan:0
-#: field:hr.employee,military_level:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_capbac_quannhan_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_capbac_quannhan
-msgid "Military Level"
-msgstr "Cấp bậc"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,weight:0
-msgid "Weight"
-msgstr "Cân nặng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_chucvu
-msgid "Chuc Vu"
-msgstr "Chức vụ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_curriculum_vitae
-msgid "Curriculum Vitae"
-msgstr "Sơ yếu lý lịch"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.trinhdo.daotao,pass:0
-msgid "Pass"
-msgstr "Đã qua đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,health_status:0
-msgid "Health status"
-msgstr "TT sức khỏe"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,military_organization:0
-msgid "Military Organization"
-msgstr "Đơn vị"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,strength:0
-msgid "Strength"
-msgstr "Điểm mạnh"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.trinhdo.daotao:0
-msgid "Search Training Level"
-msgstr "Tìm kiếm trình độ đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,religiousness:0
-#: view:hr.tongiao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_tongiao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_tongiao
-msgid "Religiousness"
-msgstr "Tôn giáo"
-
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
 #: field:hr.employee,date_demobilisation:0
 msgid "Date of Demobilisation"
 msgstr "Ngày xuất ngũ"
 
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.quanhegiadinh:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_quanhegiadinh_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_quanhegiadinh
-msgid "Family Relationships"
-msgstr "Quan hệ gia đình"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,blood_group:0
-msgid "Blood group"
-msgstr "Nhóm máu"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,wounded_soldier_rate:0
-msgid "Wounded_soldier rate"
-msgstr "Hạng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,other_email:0
-msgid "Other Email"
-msgstr "Email khác"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.chucvu,type:0
-msgid "Doan"
-msgstr "Đoàn"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.xeploai.daotao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_xeploai_daotao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_xeploai_daotao
-msgid "Training Ranking"
-msgstr "Xếp loại đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.khoa.daotao:0
-msgid "Search Training Subjects"
-msgstr "Tìm kiếm khoa đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_khoa_daotao
-msgid "Khoa Dao Tao"
-msgstr "Khoa đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,place_party_admission:0
-msgid "Place of party admission"
-msgstr "Nơi kết nạp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,yahoo:0
-msgid "Yahoo ID"
-msgstr "Yahoo ID"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.chucvu:0
-#: field:hr.employee,duty_military:0
-#: field:hr.employee,duty_party:0
-#: field:hr.employee,duty_uinon:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_chucvu_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_chucvu
-msgid "Duty"
-msgstr "Chức vụ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,code:0
-#: field:hr.noi.daotao,code:0
-msgid "Code"
-msgstr "Mã nơi đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_noi_daotao
-msgid "Noi Dao Tao"
-msgstr "Nơi đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,household:0
-msgid "Household"
-msgstr "Hộ khẩu thường trú"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.khoa.daotao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_khoa_daotao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_khoa_daotao
-msgid "Training Subjects"
-msgstr "Khoa"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_hangthuongbinh
-msgid "Hang Thuong Binh"
-msgstr "Hạng thương binh"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,height:0
-msgid "Height"
-msgstr "Chiều cao"
-
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
 #: field:hr.employee,date_of_graduation:0
 msgid "Date of Graduation"
 msgstr "Ngày tốt nghiệp"
 
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,relation:0
-msgid "Relation"
-msgstr "Quan hệ"
+#. module: vi_hr_cv
+#: field:hr.employee,date_limit_passport:0
+msgid "Date of Limit"
+msgstr "Ngày hết hạn"
 
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
+#: field:hr.employee,date_military_admission:0
+msgid "Date of Military admission"
+msgstr "Ngày nhập ngũ"
+
+#. module: vi_hr_cv
+#: field:hr.employee,date_party_admission:0
+msgid "Date of Party admission"
+msgstr "Ngày vào Đảng"
+
+#. module: vi_hr_cv
+#: field:hr.employee,date_revolution_admission:0
+msgid "Date of Revolution admission"
+msgstr "Ngày TG CM"
+
+#. module: vi_hr_cv
+#: field:hr.employee,date_union_admission:0
+msgid "Date of Union Admission"
+msgstr "Ngày vào Đoàn"
+
+#. module: vi_hr_cv
+#: field:hr.employee,declining_labor_rate:0
+msgid "Declining labor rate"
+msgstr "Tỷ lệ SG LĐ"
+
+#. module: vi_hr_cv
+#: field:hr.employee,disease:0
+msgid "Disease"
+msgstr "Bệnh tật"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.chucvu,type:0
+msgid "Doan"
+msgstr "Đoàn"
+
+#. module: vi_hr_cv
+#: field:hr.employee,duty_military:0 field:hr.employee,duty_party:0
+#: field:hr.employee,duty_uinon:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_chucvu_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_chucvu view:vi.hr.chucvu:0
+msgid "Duty"
+msgstr "Chức vụ"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_hr_employee
+msgid "Employee"
+msgstr "Nhân viên"
+
+#. module: vi_hr_cv
+#: field:hr.employee,employee_type:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_thanhphan_banthan_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_thanhphan_banthan
+#: view:vi.hr.thanhphan.banthan:0
+msgid "Employee Type"
+msgstr "Thành phần bản thân"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_quanhegiadinh_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_quanhegiadinh
+#: view:vi.hr.quanhegiadinh:0
+msgid "Family Relationships"
+msgstr "Quan hệ gia đình"
+
+#. module: vi_hr_cv
+#: field:hr.employee,family_type:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_thanhphan_giadinh_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_thanhphan_giadinh
+#: view:vi.hr.thanhphan.giadinh:0
+msgid "Family Type"
+msgstr "Thành phần gia đình"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Grandparents"
+msgstr "Ông/Bà"
+
+#. module: vi_hr_cv
+#: field:hr.employee,gtalk:0
+msgid "Gtalk ID"
+msgstr "Gtalk ID"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_binhchung
+msgid "HR Binh Chung"
+msgstr "HR Binh Chung"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_capbac_quannhan
+msgid "HR Cap Bac Quan Nhan"
+msgstr "HR Cap Bac Quan Nhan"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_chucvu
+msgid "HR Chuc Vu"
+msgstr "HR Chuc Vu"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_chuyennganh_daotao
+msgid "HR Chuyen Nganh Dao Tao"
+msgstr "HR Chuyen Nganh Dao Tao"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_dantoc
+msgid "HR Dan Toc"
+msgstr "HR Dan Toc"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_hangthuongbinh
+msgid "HR Hang Thuong Binh"
+msgstr "HR Hang Thuong Binh"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_khoa_daotao
+msgid "HR Khoa Dao Tao"
+msgstr "HR Khoa Dao Tao"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_nghenghiep
+msgid "HR Nghe Nghiep"
+msgstr "HR Nghe Nghiep"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_noi_daotao
+msgid "HR Noi Dao Tao"
+msgstr "HR Noi Dao Tao"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_quanhegiadinh
+msgid "HR Quan He Gia Dinh"
+msgstr "HR Quan He Gia Dinh"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_thanhphan_banthan
+msgid "HR Thanh Phan Ban Than"
+msgstr "HR Thanh Phan Ban Than"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_thanhphan_giadinh
+msgid "HR Thanh Phan Gia Dinh"
+msgstr "HR Thanh Phan Gia Dinh"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_tongiao
+msgid "HR Ton Giao"
+msgstr "HR Ton Giao"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_trinhdo_daotao
+msgid "HR Trinh Do Dao Tao"
+msgstr "HR Trinh Do Dao Tao"
+
+#. module: vi_hr_cv
+#: model:ir.model,name:vi_hr_cv.model_vi_hr_xeploai_daotao
+msgid "HR Xep Loai Dao Tao"
+msgstr "HR Xep Loai Dao Tao"
+
+#. module: vi_hr_cv
+#: field:hr.employee,health_status:0
+msgid "Health status"
+msgstr "TT sức khỏe"
+
+#. module: vi_hr_cv
+#: field:hr.employee,height:0
+msgid "Height"
+msgstr "Chiều cao"
+
+#. module: vi_hr_cv
+#: field:hr.employee,household:0
+msgid "Household"
+msgstr "Hộ khẩu thường trú"
+
+#. module: vi_hr_cv
+#: field:hr.employee,military_ok:0
+msgid "Is Military"
+msgstr "Là quân nhân"
+
+#. module: vi_hr_cv
+#: field:hr.employee,party_member_ok:0
+msgid "Is Party Member"
+msgstr "Là Đảng viên"
+
+#. module: vi_hr_cv
+#: field:hr.employee,union_member_ok:0
+msgid "Is Union Member"
+msgstr "Là Đoàn viên"
+
+#. module: vi_hr_cv
+#: field:hr.employee,wounded_soldier_ok:0
+msgid "Is wounded soldier"
+msgstr "Là thương binh, bệnh binh"
+
+#. module: vi_hr_cv
+#: field:hr.employee,like:0
+msgid "Like"
+msgstr "Sở thích"
+
+#. module: vi_hr_cv
+#: field:hr.employee,msn:0
+msgid "MSN ID"
+msgstr "MSN ID"
+
+#. module: vi_hr_cv
+#: field:hr.employee,military_level:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_capbac_quannhan_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_capbac_quannhan
+#: view:vi.hr.capbac.quannhan:0
+msgid "Military Level"
+msgstr "Cấp bậc quân nhân"
+
+#. module: vi_hr_cv
+#: field:hr.employee,military_organization:0
+msgid "Military Organization"
+msgstr "Đơn vị"
+
+#. module: vi_hr_cv
+#: field:vi.hr.binhchung,name:0 field:vi.hr.capbac.quannhan,name:0
+#: field:vi.hr.chucvu,name:0 field:vi.hr.chuyennganh.daotao,name:0
+#: field:vi.hr.dantoc,name:0 field:vi.hr.hangthuongbinh,name:0
+#: field:vi.hr.khoa.daotao,name:0 field:vi.hr.nghenghiep,name:0
+#: field:vi.hr.noi.daotao,name:0 field:vi.hr.quanhegiadinh,name:0
+#: field:vi.hr.thanhphan.banthan,name:0 field:vi.hr.thanhphan.giadinh,name:0
+#: field:vi.hr.tongiao,name:0 field:vi.hr.trinhdo.daotao,name:0
+#: field:vi.hr.xeploai.daotao,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: vi_hr_cv
+#: field:hr.employee,nationality:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_dantoc_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_dantoc view:vi.hr.dantoc:0
+msgid "Nationality"
+msgstr "Dân tộc"
+
+#. module: vi_hr_cv
+#: field:vi.hr.binhchung,notes:0 field:vi.hr.capbac.quannhan,notes:0
+#: field:vi.hr.chucvu,notes:0 field:vi.hr.chuyennganh.daotao,notes:0
+#: field:vi.hr.dantoc,notes:0 field:vi.hr.hangthuongbinh,notes:0
+#: field:vi.hr.khoa.daotao,notes:0 field:vi.hr.nghenghiep,notes:0
+#: field:vi.hr.noi.daotao,notes:0 field:vi.hr.quanhegiadinh,notes:0
+#: field:vi.hr.thanhphan.banthan,notes:0 field:vi.hr.thanhphan.giadinh,notes:0
+#: field:vi.hr.tongiao,notes:0 field:vi.hr.trinhdo.daotao,notes:0
+#: field:vi.hr.xeploai.daotao,notes:0
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: vi_hr_cv
+#: field:hr.employee,occupation:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_nghenghiep_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_nghenghiep
+#: view:vi.hr.nghenghiep:0
+msgid "Occupation"
+msgstr "Nghề nghiệp"
+
+#. module: vi_hr_cv
+#: field:hr.employee,address_origin_id:0
+msgid "Origin Address"
+msgstr "Nguyên quán"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Other"
+msgstr "Khác"
+
+#. module: vi_hr_cv
+#: field:hr.employee,other_email:0
+msgid "Other Email"
+msgstr "Email khác"
+
+#. module: vi_hr_cv
+#: view:hr.employee:0
+msgid "Other Information"
+msgstr "Thông tin khác"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Parent"
+msgstr "Bố/Mẹ"
+
+#. module: vi_hr_cv
+#: field:vi.hr.trinhdo.daotao,pass:0
+msgid "Pass"
+msgstr "Pass"
+
+#. module: vi_hr_cv
 #: field:hr.employee,personal_email:0
 msgid "Personal Email"
 msgstr "Email cá nhân"
 
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.employee:0
-msgid "Thong Tin Quan Su"
-msgstr "Thôn tin quân sự"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Children"
-msgstr "Con cái"
-
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
 #: view:hr.employee:0
 msgid "Personal Information"
 msgstr "Thông tin cá nhân"
 
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_thanhphan_banthan
-msgid "Thanh Phan Ban Than"
-msgstr "Thành phần bản thân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Spouses"
-msgstr "Vợ/Chồng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.nghenghiep:0
-msgid "Search Occupation"
-msgstr "Tìm kiếm nghề nghiệp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_curriculum_vitae_training
-msgid "Training"
-msgstr "Đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,training_ranking:0
-msgid "Ranking of Training"
-msgstr "Xếp loại"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_employee
-msgid "Employee"
-msgstr "Người lao động"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Relatives"
-msgstr "Họ hàng"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.quanhegiadinh,type:0
-msgid "Other"
-msgstr "Quan hệ khác"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_chuyenganh_daotao
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_chuyennganh_daotao
-msgid "Chuyen Nganh Dao Tao"
-msgstr "Chuyên ngành đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_capbac_quannhan
-msgid "Cap Bac Quan Nhan"
-msgstr "Cấp bậc quân nhân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_thanhphan_giadinh
-msgid "Thanh Phan Gia Dinh"
-msgstr "Thành phần gia đình"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,training_place:0
-msgid "Place of Training"
-msgstr "Nơi đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,weakness:0
-msgid "Weakness"
-msgstr "Điểm yếu"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.chuyennganh.daotao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_chuyennganh_daotao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_chuyennganh_daotao
-msgid "Training Speciality"
-msgstr "Chuyên ngành"
-
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
 #: field:hr.employee,place_allocate_cmnd:0
 #: field:hr.employee,place_allocate_passport:0
 msgid "Place of Allocate"
 msgstr "Nơi cấp"
 
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.employee:0
-msgid "Thong Tin Y te"
-msgstr "Thông tin y tế"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.dantoc:0
-#: field:hr.employee,nationality:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_dantoc_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_dantoc
-msgid "Nationality"
-msgstr "Dân tộc"
-
-#. module: tvtma_hr_curriculum_vitae
-#: selection:hr.employee,blood_group:0
-msgid "AB"
-msgstr "AB"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.dantoc:0
-msgid "Search Nationality"
-msgstr "Tìm kiếm dân tộc"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,like:0
-msgid "Like"
-msgstr "Sở thích"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,training_level:0
-#: view:hr.trinhdo.daotao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_trinhdo_daotao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_trinhdo_daotao
-msgid "Training Level"
-msgstr "Trình độ"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_trinhdo_daotao
-msgid "Trinh Do Dao Tao"
-msgstr "Trình độ đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,disease:0
-msgid "Disease"
-msgstr "Bệnh tật"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.quanhegiadinh:0
-msgid "Search Family Relationships"
-msgstr "Tìm kiếm quan hệ gia đình"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.chuyennganh.daotao:0
-msgid "Search Training Speciality"
-msgstr "Tìm kiếm chuyên ngành đào tạo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.hangthuongbinh:0
-msgid "Search Wounded Soldiers Rate"
-msgstr "Tìm kiếm hạng thương binh"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,wounded_soldier_ok:0
-msgid "Is wounded soldier"
-msgstr "Là thương binh, bệnh binh"
-
-#. module: tvtma_hr_curriculum_vitae
-#: model:ir.model,name:tvtma_hr_curriculum_vitae.model_hr_quanhegiadinh
-msgid "Quan He Gia Dinh"
-msgstr "Quan hệ gia đình"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,date_limit_passport:0
-msgid "Date of Limit"
-msgstr "Ngày hết hạn"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.employee:0
-msgid "Thong Tin Chinh Tri"
-msgstr "Thông tin chính trị"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,military_ok:0
-msgid "Is Military"
-msgstr "Là quân nhân"
-
-#. module: tvtma_hr_curriculum_vitae
-#: field:hr.employee,year_of_graduation:0
-msgid "Year"
-msgstr "Năm tốt nghiệp"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.tongiao:0
-msgid "Search Religiousness"
-msgstr "Tìm kiếm tôn giáo"
-
-#. module: tvtma_hr_curriculum_vitae
-#: view:hr.noi.daotao:0
-#: model:ir.actions.act_window,name:tvtma_hr_curriculum_vitae.action_hr_noi_daotao_list_normal
-#: model:ir.ui.menu,name:tvtma_hr_curriculum_vitae.menu_hr_noi_daotao
-msgid "Training Places"
+#. module: vi_hr_cv
+#: field:hr.employee,training_place:0
+msgid "Place of Training"
 msgstr "Nơi đào tạo"
 
-#. module: tvtma_hr_curriculum_vitae
+#. module: vi_hr_cv
+#: field:hr.employee,place_party_admission:0
+msgid "Place of party admission"
+msgstr "Nơi kết nạp"
+
+#. module: vi_hr_cv
+#: field:hr.employee,place_union_admission:0
+msgid "Place of union admission"
+msgstr "Nơi kết nạp"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.chucvu,type:0
+msgid "Quan nhan"
+msgstr "Quân nhân"
+
+#. module: vi_hr_cv
+#: field:hr.employee,training_ranking:0
+msgid "Ranking of Training"
+msgstr "Xếp loại"
+
+#. module: vi_hr_cv
+#: field:hr.employee,reason:0
+msgid "Reason"
+msgstr "Lý do"
+
+#. module: vi_hr_cv
+#: field:hr.employee,reference:0
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: vi_hr_cv
+#: field:hr.employee,regimen_ok:0
+msgid "Regimen"
+msgstr "Hưởng chế độ"
+
+#. module: vi_hr_cv
+#: field:hr.employee,relation:0
+msgid "Relation"
+msgstr "Quan hệ"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Relatives"
+msgstr "Họ hàng"
+
+#. module: vi_hr_cv
+#: field:hr.employee,religiousness:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_tongiao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_tongiao view:vi.hr.tongiao:0
+msgid "Religiousness"
+msgstr "Tôn giáo"
+
+#. module: vi_hr_cv
+#: view:vi.hr.binhchung:0
+msgid "Search Army"
+msgstr "Search Army"
+
+#. module: vi_hr_cv
+#: view:vi.hr.chucvu:0
+msgid "Search Duty"
+msgstr "Search Duty"
+
+#. module: vi_hr_cv
+#: view:vi.hr.quanhegiadinh:0
+msgid "Search Family Relationships"
+msgstr "Search Family Relationships"
+
+#. module: vi_hr_cv
+#: view:vi.hr.capbac.quannhan:0
+msgid "Search Military Level"
+msgstr "Search Military Level"
+
+#. module: vi_hr_cv
+#: view:vi.hr.dantoc:0
+msgid "Search Nationality"
+msgstr "Search Nationality"
+
+#. module: vi_hr_cv
+#: view:vi.hr.nghenghiep:0
+msgid "Search Occupation"
+msgstr "Search Occupation"
+
+#. module: vi_hr_cv
+#: view:vi.hr.tongiao:0
+msgid "Search Religiousness"
+msgstr "Search Religiousness"
+
+#. module: vi_hr_cv
+#: view:vi.hr.trinhdo.daotao:0
+msgid "Search Training Level"
+msgstr "Search Training Level"
+
+#. module: vi_hr_cv
+#: view:vi.hr.noi.daotao:0
+msgid "Search Training Places"
+msgstr "Search Training Places"
+
+#. module: vi_hr_cv
+#: view:vi.hr.xeploai.daotao:0
+msgid "Search Training Ranking"
+msgstr "Search Training Ranking"
+
+#. module: vi_hr_cv
+#: view:vi.hr.chuyennganh.daotao:0
+msgid "Search Training Speciality"
+msgstr "Search Training Speciality"
+
+#. module: vi_hr_cv
+#: view:vi.hr.khoa.daotao:0
+msgid "Search Training Subjects"
+msgstr "Search Training Subjects"
+
+#. module: vi_hr_cv
+#: view:vi.hr.hangthuongbinh:0
+msgid "Search Wounded Soldiers Rate"
+msgstr "Search Wounded Soldiers Rate"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Sister/Brother"
+msgstr "Anh/Chị"
+
+#. module: vi_hr_cv
 #: view:hr.employee:0
 msgid "Skill"
 msgstr "Kỹ năng"
 
+#. module: vi_hr_cv
+#: field:hr.employee,skype:0
+msgid "Skype ID"
+msgstr "Skype ID"
+
+#. module: vi_hr_cv
+#: field:hr.employee,training_speciality:0
+msgid "Speciality of Training"
+msgstr "Chuyên ngành"
+
+#. module: vi_hr_cv
+#: selection:vi.hr.quanhegiadinh,type:0
+msgid "Spouses"
+msgstr "Vợ/Chồng"
+
+#. module: vi_hr_cv
+#: field:hr.employee,strength:0
+msgid "Strength"
+msgstr "Điểm mạnh"
+
+#. module: vi_hr_cv
+#: field:hr.employee,training_subject:0
+msgid "Subject of Training"
+msgstr "Khoa"
+
+#. module: vi_hr_cv
+#: field:hr.employee,target:0
+msgid "Target"
+msgstr "Mục tiêu cá nhân"
+
+#. module: vi_hr_cv
+#: view:hr.employee:0
+msgid "Thong Tin Chinh Tri"
+msgstr "Thông tin chính trị"
+
+#. module: vi_hr_cv
+#: view:hr.employee:0
+msgid "Thong Tin Quan Su"
+msgstr "Thôn tin quân sự"
+
+#. module: vi_hr_cv
+#: view:hr.employee:0
+msgid "Thong Tin Thuong Tat"
+msgstr "Thông tin thương tật"
+
+#. module: vi_hr_cv
+#: view:hr.employee:0
+msgid "Thong Tin Y te"
+msgstr "Thông tin y tế"
+
+#. module: vi_hr_cv
+#: model:ir.ui.menu,name:vi_hr_cv.menu_hr_curriculum_vitae_training
+msgid "Training"
+msgstr "Đào tạo"
+
+#. module: vi_hr_cv
+#: field:hr.employee,training_level:0
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_trinhdo_daotao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_trinhdo_daotao
+#: view:vi.hr.trinhdo.daotao:0
+msgid "Training Level"
+msgstr "Trình độ"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_noi_daotao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_noi_daotao
+#: view:vi.hr.noi.daotao:0
+msgid "Training Places"
+msgstr "Nơi đào tạo"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_xeploai_daotao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_xeploai_daotao
+#: view:vi.hr.xeploai.daotao:0
+msgid "Training Ranking"
+msgstr "Xếp loại"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_chuyennganh_daotao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_chuyennganh_daotao
+#: view:vi.hr.chuyennganh.daotao:0
+msgid "Training Speciality"
+msgstr "Chuyên ngành"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_khoa_daotao_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_khoa_daotao
+#: view:vi.hr.khoa.daotao:0
+msgid "Training Subjects"
+msgstr "Khoa"
+
+#. module: vi_hr_cv
+#: field:vi.hr.chucvu,type:0 field:vi.hr.quanhegiadinh,type:0
+msgid "Type"
+msgstr "Loại"
+
+#. module: vi_hr_cv
+#: field:hr.employee,warning:0
+msgid "Warning"
+msgstr "Cần lưu ý"
+
+#. module: vi_hr_cv
+#: field:hr.employee,weakness:0
+msgid "Weakness"
+msgstr "Điểm yếu"
+
+#. module: vi_hr_cv
+#: field:hr.employee,weight:0
+msgid "Weight"
+msgstr "Cân nặng"
+
+#. module: vi_hr_cv
+#: model:ir.actions.act_window,name:vi_hr_cv.action_vi_hr_hangthuongbinh_list_normal
+#: model:ir.ui.menu,name:vi_hr_cv.menu_vi_hr_hangthuongbinh
+#: view:vi.hr.hangthuongbinh:0
+msgid "Wounded Soldiers Rate"
+msgstr "Hạng thương binh"
+
+#. module: vi_hr_cv
+#: field:hr.employee,wounded_soldier_rate:0
+msgid "Wounded_soldier rate"
+msgstr "Hạng thương binh"
+
+#. module: vi_hr_cv
+#: field:hr.employee,yahoo:0
+msgid "Yahoo ID"
+msgstr "Yahoo ID"
+
+#. module: vi_hr_cv
+#: field:hr.employee,year_of_graduation:0
+msgid "Year"
+msgstr "Năm tốt nghiệp"
