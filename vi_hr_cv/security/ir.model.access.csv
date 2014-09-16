@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vi_hr_dantoc_user,vi.hr.dantoc.user,model_vi_hr_dantoc,base.group_hr_user,1,1,1,1
+access_vi_hr_thanhphan_giadinh_user,vi.hr.thanhphan.giadinh.user,model_vi_hr_thanhphan_giadinh,base.group_hr_user,1,1,1,1
+access_vi_hr_thanhphan_banthan_user,vi.hr.thanhphan.banthan.user,model_vi_hr_thanhphan_banthan,base.group_hr_user,1,1,1,1
+access_vi_hr_tongiao_user,vi.hr.tongiao.user,model_vi_hr_tongiao,base.group_hr_user,1,1,1,1
+access_vi_hr_binhchung_user,vi.hr.binhchung.user,model_vi_hr_binhchung,base.group_hr_user,1,1,1,1
+access_vi_hr_capbac_quannhan_user,vi.hr.capbac.quannhan.user,model_vi_hr_capbac_quannhan,base.group_hr_user,1,1,1,1
+access_vi_hr_chucvu_user,vi.hr.chucvu.user,model_vi_hr_chucvu,base.group_hr_user,1,1,1,1
+access_vi_hr_hangthuongbinh_user,vi.hr.hangthuongbinh.user,model_vi_hr_hangthuongbinh,base.group_hr_user,1,1,1,1
+access_vi_hr_quanhegiadinh_user,vi.hr.quanhegiadinh.user,model_vi_hr_quanhegiadinh,base.group_hr_user,1,1,1,1
+access_vi_hr_trinhdo_daotao_user,vi.hr.trinhdo.daotao.user,model_vi_hr_trinhdo_daotao,base.group_hr_user,1,1,1,1
+access_vi_hr_noi_daotao_user,vi.hr.noi.daotao.user,model_vi_hr_noi_daotao,base.group_hr_user,1,1,1,1
+access_vi_hr_khoa_daotao_user,vi.hr.khoa.daotao.user,model_vi_hr_khoa_daotao,base.group_hr_user,1,1,1,1
+access_vi_hr_chuyennganh_daotao_user,vi.hr.chuyennganh.daotao.user,model_vi_hr_chuyennganh_daotao,base.group_hr_user,1,1,1,1
+access_vi_hr_xeploai_daotao_user,vi.hr.xeploai.daotao.user,model_vi_hr_xeploai_daotao,base.group_hr_user,1,1,1,1
+access_vi_hr_nghenghiep_user,vi.hr.nghenghiep.user,model_vi_hr_nghenghiep,base.group_hr_user,1,1,1,1

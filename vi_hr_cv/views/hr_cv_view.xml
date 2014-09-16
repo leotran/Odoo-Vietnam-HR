@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+    	<record id="hr_employee_form_inherit" model="ir.ui.view">
+            <field name="name">hr.employee.view.form.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+	            <data>
+	                <xpath expr="//field[@name='address_home_id']" position="after">
+	                    <field name="address_origin_id"/>
+	                    <field name="household"/>	                    
+	                    <field name="personal_email"/>
+	                    <field name="other_email"/>
+	                    <field name="yahoo"/>
+	                    <field name="skype"/>
+	                    <field name="msn"/>
+	                    <field name="contact_emergency"/>
+	                    <field name="relation"/>
+	                </xpath>
+	                <xpath expr="//field[@name='identification_id']" position="after">
+	                    <field name="date_allocate_cmnd"/>
+	                    <field name="place_allocate_cmnd"/>
+	                </xpath>
+	                <xpath expr="//field[@name='passport_id']" position="after">
+	                    <field name="date_allocate_passport"/>
+	                    <field name="place_allocate_passport"/>
+	                    <field name="date_limit_passport"/>
+	                </xpath>
+	                <xpath expr="//field[@name='marital']" position="after">	                    
+	                    <field name="family_type"/>
+	                    <field name="employee_type"/>
+	                    <field name="nationality"/>
+	                    <field name="religiousness"/>
+	                </xpath>
+	                <xpath expr="//group[@string='Birth']" position="before">
+	                	<group string="Skill">
+	                		<field name="training_level"/>	                		
+	                		<field name="training_place"/>
+	                		<field name="training_subject"/>
+	                		<field name="training_speciality"/>
+	                		<field name="date_of_graduation"/>
+	                		<!-- <field name="year_of_graduation"/> -->
+	                		<field name="training_ranking"/>
+	                		<field name="occupation"/>
+	                	</group>
+	                </xpath>
+	                <page string="Personal Information" position="after" version="7.0">
+	                	<page string="Other Information">
+	                		<group>
+	                			<group string="Thong Tin Chinh Tri">
+		                			<field name="party_member_ok"/>
+		                			<field name="date_party_admission"/>
+		                			<field name="duty_party"/>
+		                			<field name="place_party_admission"/>
+		                			<field name="union_member_ok"/>
+		                			<field name="date_union_admission"/>
+		                			<field name="duty_uinon"/>
+		                			<field name="place_union_admission"/>
+	                			</group>
+	                			<group string="Thong Tin Quan Su">
+	                				<field name="military_ok"/>	                			
+	                				<field name="date_military_admission"/>
+	                				<field name="date_demobilisation"/>
+	                				<field name="military_organization"/>
+	                				<field name="duty_military"/>
+	                				<field name="military_level"/>
+	                				<field name="army"/>	                				
+	                				<field name="reason"/>
+	                			</group>
+	                			<group string="Thong Tin Thuong Tat">
+	                				<field name="wounded_soldier_ok"/>	                			
+	                				<field name="date_revolution_admission"/>
+	                				<field name="wounded_soldier_rate"/>
+	                				<field name="declining_labor_rate"/>
+	                				<field name="regimen_ok"/>	                				
+	                			</group>
+	                			<group string="Thong Tin Y te">
+	                				<field name="blood_group"/>	                			
+	                				<field name="height"/>
+	                				<field name="weight"/>
+	                				<field name="health_status"/>
+	                				<field name="warning"/>	                				
+	                				<field name="disease"/>
+	                			</group>
+	                			<group>
+	                				<field name="target"/>	                			
+	                				<field name="like"/>
+	                			</group>
+	                			<group>
+	                				<field name="strength"/>	                			
+	                				<field name="weakness"/>
+	                			</group>
+	                		</group>
+	                	</page>
+	                </page>
+	            </data>
+            </field>
+        </record>
+    
+    </data>
+</openerp>

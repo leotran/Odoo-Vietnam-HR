@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- Menu Items-->
+        <menuitem groups="base.group_hr_user" parent="hr.menu_hr_configuration" id="menu_hr_curriculum_vitae" name="Curriculum Vitae"/>
+    	<menuitem groups="base.group_hr_user" parent="menu_hr_curriculum_vitae" id="menu_hr_curriculum_vitae_training" name="Training"/>
+
+        <!-- Nationality - Dân tộc -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_dantoc_form">
+	     	<field name="name">vi.hr.dantoc.form</field>
+	        <field name="model">vi.hr.dantoc</field>
+	        <field name="arch" type="xml">
+	        	<form string="Nationality">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_dantoc_tree">
+	     	<field name="name">vi.hr.dantoc.tree</field>
+	        <field name="model">vi.hr.dantoc</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Nationality">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_dantoc_search">
+	     	<field name="name">vi.hr.dantoc.search</field>
+	        <field name="model">vi.hr.dantoc</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Nationality">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_dantoc_list_normal">
+	        <field name="name">Nationality</field>
+	        <field name="res_model">vi.hr.dantoc</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_dantoc" name="Nationality" parent="menu_hr_curriculum_vitae" action="action_vi_hr_dantoc_list_normal"/>
+
+        <!-- Family Type - Thành phần gia đình -->
+
+   	 	<record model="ir.ui.view" id="view_vi_hr_thanhphan_giadinh_form">
+	     	<field name="name">vi.hr.thanhphan.giadinh.form</field>
+	        <field name="model">vi.hr.thanhphan.giadinh</field>
+	        <field name="arch" type="xml">
+	        	<form string="Family Type" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_thanhphan_giadinh_tree">
+	     	<field name="name">vi.hr.thanhphan.giadinh.tree</field>
+	        <field name="model">vi.hr.thanhphan.giadinh</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Family Type">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_thanhphan_giadinh_search">
+	     	<field name="name">vi.hr.thanhphan.giadinh.search</field>
+	        <field name="model">vi.hr.thanhphan.giadinh</field>
+	        <field name="arch" type="xml">
+	        	<search string="Family Type">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_thanhphan_giadinh_list_normal">
+	        <field name="name">Family Type</field>
+	        <field name="res_model">vi.hr.thanhphan.giadinh</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_thanhphan_giadinh" name="Family Type" parent="menu_hr_curriculum_vitae" action="action_vi_hr_thanhphan_giadinh_list_normal"/>
+        
+        <!-- Employee Type - Thành phần bản thân -->
+   	 	
+   	 	<record model="ir.ui.view" id="view_vi_hr_thanhphan_banthan_form">
+	     	<field name="name">vi.hr.thanhphan.banthan.form</field>
+	        <field name="model">vi.hr.thanhphan.banthan</field>
+	        <field name="arch" type="xml">
+	        	<form string="Employee Type" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_thanhphan_banthan_tree">
+	     	<field name="name">vi.hr.thanhphan.banthan.tree</field>
+	        <field name="model">vi.hr.thanhphan.banthan</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Employee Type">	        		
+	                <field name="name"/>
+	                <field name="notes"/>	                
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_thanhphan_banthan_search">
+	     	<field name="name">vi.hr.thanhphan.banthan.search</field>
+	        <field name="model">vi.hr.thanhphan.banthan</field>
+	        <field name="arch" type="xml">
+	        	<search string="Employee Type">	        		
+	                <field name="name"/>
+	                <field name="notes"/>	                
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_thanhphan_banthan_list_normal">
+	        <field name="name">Employee Type</field>
+	        <field name="res_model">vi.hr.thanhphan.banthan</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_thanhphan_banthan" name="Employee Type" parent="menu_hr_curriculum_vitae" action="action_vi_hr_thanhphan_banthan_list_normal"/>
+
+        <!-- Religiousness - Tôn giáo -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_tongiao_form">
+	     	<field name="name">vi.hr.tongiao.form</field>
+	        <field name="model">vi.hr.tongiao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Religiousness" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_tongiao_tree">
+	     	<field name="name">vi.hr.tongiao.tree</field>
+	        <field name="model">vi.hr.tongiao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Religiousness">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_tongiao_search">
+	     	<field name="name">vi.hr.tongiao.search</field>
+	        <field name="model">vi.hr.tongiao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Religiousness">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_tongiao_list_normal">
+	        <field name="name">Religiousness</field>
+	        <field name="res_model">vi.hr.tongiao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_tongiao" name="Religiousness" parent="menu_hr_curriculum_vitae" action="action_vi_hr_tongiao_list_normal"/>
+        
+        <!-- Army - Binh chủng -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_binhchung_form">
+	     	<field name="name">vi.hr.binhchung.form</field>
+	        <field name="model">vi.hr.binhchung</field>
+	        <field name="arch" type="xml">
+	        	<form string="Army" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_binhchung_tree">
+	     	<field name="name">vi.hr.binhchung.tree</field>
+	        <field name="model">vi.hr.binhchung</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Army">	        		
+	                <field name="name"/>
+	                <field name="notes"/>	                
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_binhchung_search">
+	     	<field name="name">vi.hr.binhchung.search</field>
+	        <field name="model">vi.hr.binhchung</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Army">	        		
+	                <field name="name"/>
+	                <field name="notes"/>	                
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_binhchung_list_normal">
+	        <field name="name">Army</field>
+	        <field name="res_model">vi.hr.binhchung</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_binhchung" name="Army" parent="menu_hr_curriculum_vitae" action="action_vi_hr_binhchung_list_normal"/>
+
+        <!-- Military Level - Cấp bậc quân nhân -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_capbac_quannhan_form">
+	     	<field name="name">vi.hr.capbac.quannhan.form</field>
+	        <field name="model">vi.hr.capbac.quannhan</field>
+	        <field name="arch" type="xml">
+	        	<form string="Military Level" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_capbac_quannhan_tree">
+	     	<field name="name">vi.hr.capbac.quannhan.tree</field>
+	        <field name="model">vi.hr.capbac.quannhan</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Military Level">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_capbac_quannhan_search">
+	     	<field name="name">vi.hr.capbac.quannhan.search</field>
+	        <field name="model">vi.hr.capbac.quannhan</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Military Level">
+	                <field name="name"/>
+	                <field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_capbac_quannhan_list_normal">
+	        <field name="name">Military Level</field>
+	        <field name="res_model">vi.hr.capbac.quannhan</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_capbac_quannhan" name="Military Level" parent="menu_hr_curriculum_vitae" action="action_vi_hr_capbac_quannhan_list_normal"/>
+        
+        <!-- Duty - chức vụ -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_chucvu_form">
+	     	<field name="name">vi.hr.chucvu.form</field>
+	        <field name="model">vi.hr.chucvu</field>
+	        <field name="arch" type="xml">
+	        	<form string="Duty" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="type"/>
+                        </group>
+	        		</group>
+                    <group>
+	        			<field name="notes"/>	        			
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_chucvu_tree">
+	     	<field name="name">vi.hr.chucvu.tree</field>
+	        <field name="model">vi.hr.chucvu</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Duty">	        		
+	                <field name="name"/>	
+	                <field name="type"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_chucvu_search">
+	     	<field name="name">vi.hr.chucvu.search</field>
+	        <field name="model">vi.hr.chucvu</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Duty">	        		
+	                <field name="name"/>
+	                <field name="type"/>
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_chucvu_list_normal">
+	        <field name="name">Duty</field>
+	        <field name="res_model">vi.hr.chucvu</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_chucvu" name="Duty" parent="menu_hr_curriculum_vitae" action="action_vi_hr_chucvu_list_normal"/>
+
+        <!-- Wounded Soldiers Rate - Hạng thương binh -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_hangthuongbinh_form">
+	     	<field name="name">vi.hr.hangthuongbinh.form</field>
+	        <field name="model">vi.hr.hangthuongbinh</field>
+	        <field name="arch" type="xml">
+	        	<form string="Wounded Soldiers Rate" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_hangthuongbinh_tree">
+	     	<field name="name">vi.hr.hangthuongbinh.tree</field>
+	        <field name="model">vi.hr.hangthuongbinh</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Wounded Soldiers Rate">
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_hangthuongbinh_search">
+	     	<field name="name">vi.hr.hangthuongbinh.search</field>
+	        <field name="model">vi.hr.hangthuongbinh</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Wounded Soldiers Rate">
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_hangthuongbinh_list_normal">
+	        <field name="name">Wounded Soldiers Rate</field>
+	        <field name="res_model">vi.hr.hangthuongbinh</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_hangthuongbinh" name="Wounded Soldiers Rate" parent="menu_hr_curriculum_vitae" action="action_vi_hr_hangthuongbinh_list_normal"/>
+        
+        <!-- Family Relationships - Quan hệ gia đình -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_quanhegiadinh_form">
+	     	<field name="name">vi.hr.quanhegiadinh.form</field>
+	        <field name="model">vi.hr.quanhegiadinh</field>
+	        <field name="arch" type="xml">
+	        	<form string="Family Relationships" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="type"/>
+                        </group>
+	        		</group>
+                    <group>
+	        			<field name="notes"/>	        			
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_quanhegiadinh_tree">
+	     	<field name="name">vi.hr.quanhegiadinh.tree</field>
+	        <field name="model">vi.hr.quanhegiadinh</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Family Relationships">	        		
+	                <field name="name"/>	
+	                <field name="type"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_quanhegiadinh_search">
+	     	<field name="name">vi.hr.quanhegiadinh.search</field>
+	        <field name="model">vi.hr.quanhegiadinh</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Family Relationships">	        		
+	                <field name="name"/>
+	                <field name="type"/>
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_quanhegiadinh_list_normal">
+	        <field name="name">Family Relationships</field>
+	        <field name="res_model">vi.hr.quanhegiadinh</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_quanhegiadinh" name="Family Relationships" parent="menu_hr_curriculum_vitae" action="action_vi_hr_quanhegiadinh_list_normal"/>
+        
+        <!-- Training Level - Trình độ đào tạo -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_trinhdo_daotao_form">
+	     	<field name="name">vi.hr.trinhdo.daotao.form</field>
+	        <field name="model">vi.hr.trinhdo.daotao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Training Level" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="pass"/>
+                        </group>
+	        		</group>
+                    <group>
+	        			<field name="notes"/>	        			
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_trinhdo_daotao_tree">
+	     	<field name="name">vi.hr.trinhdo.daotao.tree</field>
+	        <field name="model">vi.hr.trinhdo.daotao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Training Level">	        		
+	                <field name="name"/>	
+	                <field name="pass"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_trinhdo_daotao_search">
+	     	<field name="name">vi.hr.trinhdo.daotao.search</field>
+	        <field name="model">vi.hr.trinhdo.daotao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Training Level">	        		
+	                <field name="name"/>
+	                <field name="pass"/>
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_trinhdo_daotao_list_normal">
+	        <field name="name">Training Level</field>
+	        <field name="res_model">vi.hr.trinhdo.daotao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_trinhdo_daotao" name="Training Level" parent="menu_hr_curriculum_vitae_training" action="action_vi_hr_trinhdo_daotao_list_normal"/>
+
+        <!-- Training Places - Nơi đào tạo -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_noi_daotao_form">
+	     	<field name="name">vi.hr.noi.daotao.form</field>
+	        <field name="model">vi.hr.noi.daotao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Training Places" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="code"/>
+                        </group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+	        		</group>
+                    <group>
+	        			<field name="notes"/>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_noi_daotao_tree">
+	     	<field name="name">vi.hr.noi.daotao.tree</field>
+	        <field name="model">vi.hr.noi.daotao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Training Places">
+	                <field name="code"/>
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_noi_daotao_search">
+	     	<field name="name">vi.hr.noi.daotao.search</field>
+	        <field name="model">vi.hr.noi.daotao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Training Places">
+	                <field name="code"/>
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_noi_daotao_list_normal">
+	        <field name="name">Training Places</field>
+	        <field name="res_model">vi.hr.noi.daotao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_noi_daotao" name="Training Places" parent="menu_hr_curriculum_vitae_training" action="action_vi_hr_noi_daotao_list_normal"/>
+        
+        <!-- Training Subjects - Khoa đào tạo -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_khoa_daotao_form">
+	     	<field name="name">vi.hr.khoa.daotao.form</field>
+	        <field name="model">vi.hr.khoa.daotao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Training Subjects" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_khoa_daotao_tree">
+	     	<field name="name">vi.hr.khoa.daotao.tree</field>
+	        <field name="model">vi.hr.khoa.daotao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Training Subjects">	        		
+	                <field name="name"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_khoa_daotao_search">
+	     	<field name="name">vi.hr.khoa.daotao.search</field>
+	        <field name="model">vi.hr.khoa.daotao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Training Subjects">	        		
+	                <field name="name"/>	                
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_khoa_daotao_list_normal">
+	        <field name="name">Training Subjects</field>
+	        <field name="res_model">vi.hr.khoa.daotao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_khoa_daotao" name="Training Subjects" parent="menu_hr_curriculum_vitae_training" action="action_vi_hr_khoa_daotao_list_normal"/>
+        
+        <!-- Training Speciality - Chuyên ngành đào tạo -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_chuyennganh_daotao_form">
+	     	<field name="name">vi.hr.chuyennganh.daotao.form</field>
+	        <field name="model">vi.hr.chuyennganh.daotao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Training Speciality" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_chuyennganh_daotao_tree">
+	     	<field name="name">vi.hr.chuyennganh.daotao.tree</field>
+	        <field name="model">vi.hr.chuyennganh.daotao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Training Speciality">	        		
+	                <field name="name"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_chuyennganh_daotao_search">
+	     	<field name="name">vi.hr.chuyennganh.daotao.search</field>
+	        <field name="model">vi.hr.chuyennganh.daotao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Training Speciality">	        		
+	                <field name="name"/>	                
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_chuyennganh_daotao_list_normal">
+	        <field name="name">Training Speciality</field>
+	        <field name="res_model">vi.hr.chuyennganh.daotao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_chuyennganh_daotao" name="Training Speciality" parent="menu_hr_curriculum_vitae_training" action="action_vi_hr_chuyennganh_daotao_list_normal"/>
+
+        <!-- Training Ranking - Xếp loại đào tạo -->
+
+    	<record model="ir.ui.view" id="view_vi_hr_xeploai_daotao_form">
+	     	<field name="name">vi.hr.xeploai.daotao.form</field>
+	        <field name="model">vi.hr.xeploai.daotao</field>
+	        <field name="arch" type="xml">
+	        	<form string="Training Ranking" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_xeploai_daotao_tree">
+	     	<field name="name">vi.hr.xeploai.daotao.tree</field>
+	        <field name="model">vi.hr.xeploai.daotao</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Training Ranking">
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</tree>
+	        </field>
+     	</record>
+
+     	<record model="ir.ui.view" id="view_vi_hr_xeploai_daotao_search">
+	     	<field name="name">vi.hr.xeploai.daotao.search</field>
+	        <field name="model">vi.hr.xeploai.daotao</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Training Ranking">
+	                <field name="name"/>
+        			<field name="notes"/>
+	        	</search>
+	        </field>
+     	</record>
+
+     	<record model="ir.actions.act_window" id="action_vi_hr_xeploai_daotao_list_normal">
+	        <field name="name">Training Ranking</field>
+	        <field name="res_model">vi.hr.xeploai.daotao</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>
+   	 	</record>
+
+   	 	<menuitem id="menu_vi_hr_xeploai_daotao" name="Training Ranking" parent="menu_hr_curriculum_vitae_training" action="action_vi_hr_xeploai_daotao_list_normal"/>
+        
+        <!-- Occupation - Nghề nghiệp -->
+    	
+    	<record model="ir.ui.view" id="view_vi_hr_nghenghiep_form">
+	     	<field name="name">vi.hr.nghenghiep.form</field>
+	        <field name="model">vi.hr.nghenghiep</field>
+	        <field name="arch" type="xml">
+	        	<form string="Occupation" version="7.0">
+	        		<group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="notes"/>
+                        </group>
+	        		</group>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_nghenghiep_tree">
+	     	<field name="name">vi.hr.nghenghiep.tree</field>
+	        <field name="model">vi.hr.nghenghiep</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Occupation">	        		
+	                <field name="name"/>
+        			<field name="notes"/>	                         
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_nghenghiep_search">
+	     	<field name="name">vi.hr.nghenghiep.search</field>
+	        <field name="model">vi.hr.nghenghiep</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Occupation">	        		
+	                <field name="name"/>	                
+        			<field name="notes"/>	                             
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.actions.act_window" id="action_vi_hr_nghenghiep_list_normal">
+	        <field name="name">Occupation</field>
+	        <field name="res_model">vi.hr.nghenghiep</field>
+	        <field name="view_type">form</field>
+	        <field name="view_mode">tree,form</field>	        
+   	 	</record>
+   	 	
+   	 	<menuitem id="menu_vi_hr_nghenghiep" name="Occupation" parent="menu_hr_curriculum_vitae" action="action_vi_hr_nghenghiep_list_normal"/>
+
+    </data>
+</openerp>
