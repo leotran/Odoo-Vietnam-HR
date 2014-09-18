@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    
+    <record model="ir.ui.view" id="view_vi_hr_family_form">
+	     	<field name="name">vi.hr.family.form</field>
+	        <field name="model">vi.hr.family</field>
+	        <field name="arch" type="xml">
+	        	<form string="Family" version="7.0">
+	        		<group>
+	        			<group>
+	        				<field name="name"/>
+	        				<field name="date_of_birth"/>
+	        				<field name="year_of_birth"/>
+	        				<field name="address"/>
+	        				<field name="home_phone"/>
+	        				<field name="mobile"/>
+	        				<field name="email"/>
+	        			</group>
+	        			<group>
+	        				<field name="relation"/>
+	        				<field name="occupation"/>
+	        				<field name="work_address"/>
+	        				<field name="dependency_ok"/>
+	        				<field name="depreciation_start"/>
+	        				<field name="depreciation_end"/>
+	        				<field name="death"/>
+	        			</group>
+	        		</group>
+	        		<field name="notes" placeholder="Notes ..." colspan="4"/>
+	        	</form>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_family_tree">
+	     	<field name="name">vi.hr.family.tree</field>
+	        <field name="model">vi.hr.family</field>
+	        <field name="arch" type="xml">
+	        	<tree toolbar="1" string="Family">	        		
+	                <field name="name"/>
+	                <field name="relation"/>
+	                <field name="address"/>	                
+	                <field name="home_phone"/>
+	                <field name="mobile"/>
+	                <field name="email"/>
+	        	</tree>
+	        </field>
+     	</record>
+     	
+     	<record model="ir.ui.view" id="view_vi_hr_family_search">
+	     	<field name="name">vi.hr.family.search</field>
+	        <field name="model">vi.hr.family</field>
+	        <field name="arch" type="xml">
+	        	<search string="Search Family">	        		
+	                <field name="name"/>
+	                <field name="relation"/>
+	                <field name="address"/>	                
+	                <field name="home_phone"/>
+	                <field name="mobile"/>
+	                <field name="email"/>	                
+	        	</search>
+	        </field>
+     	</record>
+     	
+     	<record id="hr_employee_family_form_inherit" model="ir.ui.view">
+            <field name="name">hr.employee.family.view.form.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="vi_hr_cv.hr_employee_form_inherit"/>
+            <field name="arch" type="xml">
+            	<page string="Other Information" position="before" version="7.0">
+            		<page string="Family" groups="base.group_hr_user">
+            			<group>
+            				<field name="vi_family_ids" nolabel="1"/>
+            			</group>
+            		</page>
+            	</page>
+            </field>
+        </record>
+            
+    </data>
+</openerp>

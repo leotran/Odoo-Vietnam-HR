@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vi_hr_family_base_user,vi.hr.family.base.user,model_vi_hr_family,base.group_user,1,0,0,0
+access_vi_hr_family_user,vi.hr.family.user,model_vi_hr_family,base.group_hr_user,1,1,1,1

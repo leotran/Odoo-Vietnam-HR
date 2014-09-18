@@ -47,7 +47,7 @@
 	                	</group>
 	                </xpath>
 	                <page string="Personal Information" position="after" version="7.0">
-	                	<page string="Other Information">
+	                	<page string="Other Information" groups="base.group_hr_user">
 	                		<group>
 	                			<group string="Thong Tin Chinh Tri">
 		                			<field name="vi_party_member_ok"/>

@@ -1,0 +1,125 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* tvtma_hr_family
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130322-002354\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-04 10:05+0000\n"
+"PO-Revision-Date: 2013-08-04 10:05+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tvtma_hr_family
+#: model:ir.model,name:tvtma_hr_family.model_hr_family
+msgid "Employee Family Information"
+msgstr "Thông tin quan hệ gia đình"
+
+#. module: tvtma_hr_family
+#: field:hr.family,death:0
+msgid "Death"
+msgstr "Đã mất"
+
+#. module: tvtma_hr_family
+#: field:hr.family,name:0
+msgid "Name"
+msgstr "Họ và tên"
+
+#. module: tvtma_hr_family
+#: view:hr.employee:0
+#: field:hr.employee,family_ids:0
+#: view:hr.family:0
+msgid "Family"
+msgstr "Quan hệ gia đình"
+
+#. module: tvtma_hr_family
+#: field:hr.family,mobile:0
+msgid "Mobile"
+msgstr "ĐT Đi động"
+
+#. module: tvtma_hr_family
+#: field:hr.family,date_of_birth:0
+msgid "Date of birth"
+msgstr "Ngày sinh"
+
+#. module: tvtma_hr_family
+#: field:hr.family,notes:0
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: tvtma_hr_family
+#: field:hr.family,address:0
+msgid "Address"
+msgstr "Địa chỉ"
+
+#. module: tvtma_hr_family
+#: field:hr.family,work_address:0
+msgid "Work address"
+msgstr "Nơi làm việc"
+
+#. module: tvtma_hr_family
+#: field:hr.family,dependency_ok:0
+msgid "Is dependency"
+msgstr "Là người phụ thuộc"
+
+#. module: tvtma_hr_family
+#: field:hr.family,depreciation_end:0
+msgid "Depreciation end"
+msgstr "Thời điểm kết thúc GT"
+
+#. module: tvtma_hr_family
+#: view:hr.family:0
+msgid "Notes ..."
+msgstr "Ghi chú ..."
+
+#. module: tvtma_hr_family
+#: field:hr.family,relation:0
+msgid "Relation"
+msgstr "Quan hệ"
+
+#. module: tvtma_hr_family
+#: field:hr.family,depreciation_start:0
+msgid "Depreciation start"
+msgstr "Thời điểm tính GT"
+
+#. module: tvtma_hr_family
+#: field:hr.family,employee_id:0
+#: model:ir.model,name:tvtma_hr_family.model_hr_employee
+msgid "Employee"
+msgstr "Người LĐ"
+
+#. module: tvtma_hr_family
+#: view:hr.employee:0
+msgid "Other Information"
+msgstr "Thông tin khác"
+
+#. module: tvtma_hr_family
+#: view:hr.family:0
+msgid "Search Family"
+msgstr "Tìm kiếm gia đình"
+
+#. module: tvtma_hr_family
+#: field:hr.family,occupation:0
+msgid "Occupation"
+msgstr "Nghề nghiệp"
+
+#. module: tvtma_hr_family
+#: field:hr.family,year_of_birth:0
+msgid "Year of birth"
+msgstr "Năm sinh"
+
+#. module: tvtma_hr_family
+#: field:hr.family,email:0
+msgid "Email"
+msgstr "Email"
+
+#. module: tvtma_hr_family
+#: field:hr.family,home_phone:0
+msgid "Home phone"
+msgstr "ĐT nhà riêng"
+
