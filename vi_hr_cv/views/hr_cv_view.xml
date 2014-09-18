@@ -9,88 +9,88 @@
             <field name="arch" type="xml">
 	            <data>
 	                <xpath expr="//field[@name='address_home_id']" position="after">
-	                    <field name="address_origin_id"/>
-	                    <field name="household"/>	                    
-	                    <field name="personal_email"/>
-	                    <field name="other_email"/>
-	                    <field name="yahoo"/>
-	                    <field name="skype"/>
-	                    <field name="msn"/>
-	                    <field name="contact_emergency"/>
-	                    <field name="relation"/>
+	                    <field name="vi_address_origin_id"/>
+	                    <field name="vi_household"/>
+	                    <field name="vi_personal_email"/>
+	                    <field name="vi_other_email"/>
+	                    <field name="vi_yahoo"/>
+	                    <field name="vi_skype"/>
+	                    <field name="vi_msn"/>
+	                    <field name="vi_contact_emergency"/>
+	                    <field name="vi_relation"/>
 	                </xpath>
 	                <xpath expr="//field[@name='identification_id']" position="after">
-	                    <field name="date_allocate_cmnd"/>
-	                    <field name="place_allocate_cmnd"/>
+	                    <field name="vi_date_allocate_cmnd"/>
+	                    <field name="vi_place_allocate_cmnd"/>
 	                </xpath>
 	                <xpath expr="//field[@name='passport_id']" position="after">
-	                    <field name="date_allocate_passport"/>
-	                    <field name="place_allocate_passport"/>
-	                    <field name="date_limit_passport"/>
+	                    <field name="vi_date_allocate_passport"/>
+	                    <field name="vi_place_allocate_passport"/>
+	                    <field name="vi_date_limit_passport"/>
 	                </xpath>
 	                <xpath expr="//field[@name='marital']" position="after">	                    
-	                    <field name="family_type"/>
-	                    <field name="employee_type"/>
-	                    <field name="nationality"/>
-	                    <field name="religiousness"/>
+	                    <field name="vi_family_type"/>
+	                    <field name="vi_employee_type"/>
+	                    <field name="vi_nationality"/>
+	                    <field name="vi_religiousness"/>
 	                </xpath>
 	                <xpath expr="//group[@string='Birth']" position="before">
 	                	<group string="Skill">
-	                		<field name="training_level"/>	                		
-	                		<field name="training_place"/>
-	                		<field name="training_subject"/>
-	                		<field name="training_speciality"/>
-	                		<field name="date_of_graduation"/>
+	                		<field name="vi_training_level"/>
+	                		<field name="vi_training_place"/>
+	                		<field name="vi_training_subject"/>
+	                		<field name="vi_training_speciality"/>
+	                		<field name="vi_date_of_graduation"/>
 	                		<!-- <field name="year_of_graduation"/> -->
-	                		<field name="training_ranking"/>
-	                		<field name="occupation"/>
+	                		<field name="vi_training_ranking"/>
+	                		<field name="vi_occupation"/>
 	                	</group>
 	                </xpath>
 	                <page string="Personal Information" position="after" version="7.0">
 	                	<page string="Other Information">
 	                		<group>
 	                			<group string="Thong Tin Chinh Tri">
-		                			<field name="party_member_ok"/>
-		                			<field name="date_party_admission"/>
-		                			<field name="duty_party"/>
-		                			<field name="place_party_admission"/>
-		                			<field name="union_member_ok"/>
-		                			<field name="date_union_admission"/>
-		                			<field name="duty_uinon"/>
-		                			<field name="place_union_admission"/>
+		                			<field name="vi_party_member_ok"/>
+		                			<field name="vi_date_party_admission"/>
+		                			<field name="vi_duty_party"/>
+		                			<field name="vi_place_party_admission"/>
+		                			<field name="vi_union_member_ok"/>
+		                			<field name="vi_date_union_admission"/>
+		                			<field name="vi_duty_uinon"/>
+		                			<field name="vi_place_union_admission"/>
 	                			</group>
 	                			<group string="Thong Tin Quan Su">
-	                				<field name="military_ok"/>	                			
-	                				<field name="date_military_admission"/>
-	                				<field name="date_demobilisation"/>
-	                				<field name="military_organization"/>
-	                				<field name="duty_military"/>
-	                				<field name="military_level"/>
-	                				<field name="army"/>	                				
-	                				<field name="reason"/>
+	                				<field name="vi_military_ok"/>
+	                				<field name="vi_date_military_admission"/>
+	                				<field name="vi_date_demobilisation"/>
+	                				<field name="vi_military_organization"/>
+	                				<field name="vi_duty_military"/>
+	                				<field name="vi_military_level"/>
+	                				<field name="vi_army"/>
+	                				<field name="vi_reason"/>
 	                			</group>
 	                			<group string="Thong Tin Thuong Tat">
-	                				<field name="wounded_soldier_ok"/>	                			
-	                				<field name="date_revolution_admission"/>
-	                				<field name="wounded_soldier_rate"/>
-	                				<field name="declining_labor_rate"/>
-	                				<field name="regimen_ok"/>	                				
+	                				<field name="vi_wounded_soldier_ok"/>
+	                				<field name="vi_date_revolution_admission"/>
+	                				<field name="vi_wounded_soldier_rate"/>
+	                				<field name="vi_declining_labor_rate"/>
+	                				<field name="vi_regimen_ok"/>
 	                			</group>
 	                			<group string="Thong Tin Y te">
-	                				<field name="blood_group"/>	                			
-	                				<field name="height"/>
-	                				<field name="weight"/>
-	                				<field name="health_status"/>
-	                				<field name="warning"/>	                				
-	                				<field name="disease"/>
+	                				<field name="vi_blood_group"/>
+	                				<field name="vi_height"/>
+	                				<field name="vi_weight"/>
+	                				<field name="vi_health_status"/>
+	                				<field name="vi_warning"/>
+	                				<field name="vi_disease"/>
 	                			</group>
 	                			<group>
-	                				<field name="target"/>	                			
-	                				<field name="like"/>
+	                				<field name="vi_target"/>
+	                				<field name="vi_like"/>
 	                			</group>
 	                			<group>
-	                				<field name="strength"/>	                			
-	                				<field name="weakness"/>
+	                				<field name="vi_strength"/>
+	                				<field name="vi_weakness"/>
 	                			</group>
 	                		</group>
 	                	</page>
