@@ -27,7 +27,7 @@
 	        				<field name="death"/>
 	        			</group>
 	        		</group>
-	        		<field name="notes" placeholder="Notes ..."/>
+	        		<field name="notes"/>
 	        	</form>
 	        </field>
      	</record>
